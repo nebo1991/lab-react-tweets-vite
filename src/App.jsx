@@ -38,10 +38,11 @@ const tweetsArray = [
 ];
 
 function App() {
-  console.log('tweetsArray: ', tweetsArray[0]);
   return (
     <div className="App">
             <Tweet tweet={ tweetsArray[0] }/>
+            <Tweet tweet={ tweetsArray[1] }/>
+            <Tweet tweet={ tweetsArray[2] }/>
             
     </div>
   );
